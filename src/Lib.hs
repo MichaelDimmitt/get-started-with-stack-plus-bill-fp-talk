@@ -2,5 +2,6 @@ module Lib
     ( someFunc
     ) where
 
+greet name = "Hello " ++ name ++ "!"
 someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+someFunc = putStrLn (greet "bobby")
