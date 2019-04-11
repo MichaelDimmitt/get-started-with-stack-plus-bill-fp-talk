@@ -4,4 +4,6 @@ module Lib
 
 greet name = "Hello " ++ name ++ "!"
 someFunc :: IO ()
-someFunc = putStrLn (greet "bobby")
+someFunc = do
+  putStrLn (greet "bobby")
+  putStrLn (greet "frank")
