@@ -46,3 +46,4 @@ tests:
     - -with-rtsopts=-N
     dependencies:
     - get-started-with-stack-plus-bill-fp-talk
+    - hspec

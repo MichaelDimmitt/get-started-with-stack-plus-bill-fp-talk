@@ -6,9 +6,9 @@ http://haskellbook.com/
 https://www.tutorialspoint.com/haskell/
 
 getting hspec to work: 
-add the following line to test suite project-name in the `*.cabalfile`.
+add the following line to `tests: <project name> dependencies:` in `package.yaml`.
 ```
-, hspec
+- hspec
 ```
 
 ... bills link coming soon.
