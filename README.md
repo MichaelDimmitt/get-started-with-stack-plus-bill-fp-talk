@@ -5,6 +5,11 @@ http://seanhess.github.io/2015/08/04/practical-haskell-getting-started.html
 http://haskellbook.com/
 https://www.tutorialspoint.com/haskell/
 
+getting hspec to work: 
+add the following line to `tests: <project name> dependencies:` in `package.yaml`.
+```
+- hspec
+```
 
 ... bills link coming soon.
 
